@@ -164,7 +164,7 @@
         "coordinates": [43.273296, 6.639621],
         "album": "Lover",
         "song": "The Man",
-        "lyrics": "I’d be just like Leo in Saint-Tropez",
+        "lyrics": "I'd be just like Leo in Saint-Tropez",
         "notes": ""
     },
     {
@@ -173,7 +173,7 @@
         "album": "Lover",
         "song": "I Think He Knows",
         "lyrics": "He got my heartbeat skipping down 16th Avenue",
-        "notes": "16th Avenue refers to Music Row in Nashville, Tennessee, which is the heart of Nashville’s music scene."
+        "notes": "16th Avenue refers to Music Row in Nashville, Tennessee, which is the heart of Nashville's music scene."
     },
     {
         "location": "Cornelia Street, New York City",
@@ -292,7 +292,7 @@
         "coordinates": [0, -25],
         "album": "Lover",
         "song": "False God",
-        "lyrics": "We were stupid to jump in the ocean separating us, remember how I’d fly to you?",
+        "lyrics": "We were stupid to jump in the ocean separating us, remember how I'd fly to you?",
         "notes": "The ocean separating America from England, referring to Taylor and Joe's respective home countries."
     },
     {
@@ -300,7 +300,7 @@
         "coordinates": [40.7127, -74.0059],
         "album": "Lover",
         "song": "False God",
-        "lyrics": "Staring out the window like I’m not your favorite town, I'm New York City, I still do it for you, babe",
+        "lyrics": "Staring out the window like I'm not your favorite town, I'm New York City, I still do it for you, babe",
         "notes": ""
     },
     {
@@ -332,7 +332,7 @@
         "coordinates": [38.627222, -90.197778],
         "album": "folklore",
         "song": "​the last great american dynasty",
-        "lyrics": "Rebekah rode up on the afternoon train, it was sunny, her saltbox house on the coast took her mind off St. Louis",
+        "lyrics": "Rebekah rode up on the afternoon train, it was sunny, her saltbox house on the coast took her mind off St. Louis",
         "notes": ""
     },
     {
@@ -356,7 +356,7 @@
         "coordinates": [41, -78],
         "album": "folklore",
         "song": "​seven",
-        "lyrics": "But I, I was high in the sky, with Pennsylvania under me",
+        "lyrics": "But I, I was high in the sky, with Pennsylvania under me",
         "notes": ""
     },
     {
@@ -412,7 +412,7 @@
         "coordinates": [54.5, -3.166667],
         "album": "folklore",
         "song": "the lakes",
-        "lyrics": "Take me to the Lakes, where all the poets went to die",
+        "lyrics": "Take me to the Lakes, where all the poets went to die",
         "notes": "Referring to Lake District, a national park in North West England."
     },
     {
@@ -420,7 +420,39 @@
         "coordinates": [54.5, -3.166667],
         "album": "folklore",
         "song": "the lakes",
-        "lyrics": "Those Windermere peaks look like a perfect place to cry",
+        "lyrics": "Those Windermere peaks look like a perfect place to cry",
         "notes": ""
+    },
+    {
+        "location": "Los Angeles",
+        "coordinates": [34.05, -118.25],
+        "album": "evermore",
+        "song": "'tis the damn season",
+        "lyrics": "So I'll go back to L.A. and the so-called friends who'll write books about me if I ever make it",
+        "notes": ""
+    },
+    {
+        "location": "Tupelo, MS",
+        "coordinates": [34.259722, -88.725833],
+        "album": "evermore",
+        "song": "dorothea",
+        "lyrics": "The stars in your eyes shined brighter in Tupelo",
+        "notes": ""
+    },
+    {
+        "location": "Coney Island, New York City",
+        "coordinates": [40.575, -73.9825],
+        "album": "evermore",
+        "song": "coney island",
+        "lyrics": "And I'm sitting on a bench in Coney Island, wondering, where did my baby go?",
+        "notes": ""
+    },
+    {
+        "location": "Hanging Gardens of Babylon, Babylon",
+        "coordinates": [32.5355, 44.4275],
+        "album": "evermore",
+        "song": "cowboy like me",
+        "lyrics": "Now you hang from my lips, like the Gardens of Babylon",
+        "notes": "Although the Hanging Gardens of Babylon were one of the Seven World Wonders of the Ancient World, the remnants can still be visited today in Iraq."
     }
 ]
