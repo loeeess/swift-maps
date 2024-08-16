@@ -1,4 +1,6 @@
-[
+// locations.js
+var locations = [
+    // Taylor Swift
     {
         "location": "Georgia",
         "coordinates": [33, -83],
@@ -7,14 +9,16 @@
         "lyrics": "He said the way my blue eyes shined, put those Georgia stars to shame that night",
         "notes": ""
     },
+    // Fearless (Taylor's Version)
     {
-        "location": "Hollywood",
-        "coordinates": [33, -83],
+        "location": "Hollywood, Los Angeles",
+        "coordinates": [34.101667, -118.326667],
         "album": "Fearless (Taylor's Version)",
         "song": "White Horse",
         "lyrics": "This ain't Hollywood, this is a small town",
         "notes": ""
     },
+    // Speak Now (Taylor's Version)
     {
         "location": "New York City",
         "coordinates": [40.7127, -74.0059],
@@ -31,9 +35,10 @@
         "lyrics": "Well, she's so New York when she's in L.A.",
         "notes": ""
     },
+    // Red (Taylor's Version)
     {
         "location": "Upstate New York",
-        "coordinates": [43.5123434,-77.1595936],
+        "coordinates": [43.5123434,-76.1595936],
         "album": "Red (Taylor's Version)",
         "song": "All Too Well (Taylor's Version)",
         "lyrics": "We're singing in the car, getting lost upstate",
@@ -103,6 +108,7 @@
         "lyrics": "From when your Brooklyn broke my skin and bones, I'm a soldier who's returning half her weight",
         "notes": ""
     },
+    // 1989 (Taylor's Version)
     {
         "location": "New York City",
         "coordinates": [40.7127, -74.0059],
@@ -121,12 +127,13 @@
     },
     {
         "location": "Red Sea",
-        "coordinates": [33.8029, -118.1835],
+        "coordinates": [22, 38],
         "album": "1989 (Taylor's Version)",
         "song": "Now That We Don't Talk (Taylor's Version) (From The Vault)",
         "lyrics": "You part the crowd like the Red Sea, don't even get me started",
         "notes": "A biblical reference to the parting of the Red Sea."
     },
+    // reputation
     {
         "location": "East Side (Manhattan), New York City",
         "coordinates": [40.75, -73.98],
@@ -160,6 +167,15 @@
         "notes": "The intersection of Sunset Boulevard and Vine Street in Hollywood, Los Angeles, California"
     },
     {
+        "location": "United States of America",
+        "coordinates": [40, -100],
+        "album": "reputation",
+        "song": "King of My Heart",
+        "lyrics": "Salute to me, I'm your American queen",
+        "notes": ""
+    },
+    // Lover
+    {
         "location": "Saint-Tropez",
         "coordinates": [43.273296, 6.639621],
         "album": "Lover",
@@ -174,6 +190,14 @@
         "song": "I Think He Knows",
         "lyrics": "He got my heartbeat skipping down 16th Avenue",
         "notes": "16th Avenue refers to Music Row in Nashville, Tennessee, which is the heart of Nashville's music scene."
+    },
+    {
+        "location": "United States of America",
+        "coordinates": [40, -100],
+        "album": "Lover",
+        "song": "Miss Americana & The Heartbreak Prince",
+        "lyrics": "American glory faded before me / American stories burning before me",
+        "notes": ""
     },
     {
         "location": "Cornelia Street, New York City",
@@ -193,7 +217,7 @@
     },
     {
         "location": "Southern California",
-        "coordinates": [34.0, 117.0],
+        "coordinates": [34.0, -117.0],
         "album": "Lover",
         "song": "London Boy",
         "lyrics": "I love my hometown as much as Motown, I love SoCal",
@@ -319,6 +343,7 @@
         "lyrics": "Back and forth from New York (Sneakin' in your bed)",
         "notes": ""
     },
+    // folklore
     {
         "location": "High Line, New York City",
         "coordinates": [40.748211927991136, -74.00480781816155],
@@ -333,6 +358,14 @@
         "album": "folklore",
         "song": "​the last great american dynasty",
         "lyrics": "Rebekah rode up on the afternoon train, it was sunny, her saltbox house on the coast took her mind off St. Louis",
+        "notes": ""
+    },
+    {
+        "location": "United States of America",
+        "coordinates": [40, -100],
+        "album": "folklore",
+        "song": "​the last great american dynasty",
+        "lyrics": "There goes the last great American dynasty",
         "notes": ""
     },
     {
@@ -417,12 +450,13 @@
     },
     {
         "location": "Lake Windermere",
-        "coordinates": [54.5, -3.166667],
+        "coordinates": [54.358333, -2.936111],
         "album": "folklore",
         "song": "the lakes",
         "lyrics": "Those Windermere peaks look like a perfect place to cry",
         "notes": ""
     },
+    // evermore
     {
         "location": "Los Angeles",
         "coordinates": [34.05, -118.25],
@@ -432,7 +466,7 @@
         "notes": ""
     },
     {
-        "location": "Tupelo, MS",
+        "location": "Tupelo, Mississippi",
         "coordinates": [34.259722, -88.725833],
         "album": "evermore",
         "song": "dorothea",
@@ -454,5 +488,64 @@
         "song": "cowboy like me",
         "lyrics": "Now you hang from my lips, like the Gardens of Babylon",
         "notes": "Although the Hanging Gardens of Babylon were one of the Seven World Wonders of the Ancient World, the remnants can still be visited today in Iraq."
-    }
+    },
+    // Midnights
+    {
+        "location": "New York City",
+        "coordinates": [40.7127, -74.0059],
+        "album": "Midnights",
+        "song": "Maroon",
+        "lyrics": "And I lost you, the one I was dancing with in New York, no shoes, looked up at the sky and it was (Maroon)",
+        "notes": ""
+    },
+    {
+        "location": "Wicklow",
+        "coordinates": [52.9779, -6.033],
+        "album": "Midnights",
+        "song": "Sweet Nothing",
+        "lyrics": "Does it ever miss Wicklow sometimes?",
+        "notes": ""
+    },
+    {
+        "location": "Asia",
+        "coordinates": [53, 108],
+        "album": "Midnights",
+        "song": "Bigger Than The Whole Sky",
+        "lyrics": "Did some bird flap its wings ovеr in Asia?",
+        "notes": ""
+    },
+    {
+        "location": "Paris",
+        "coordinates": [48.856667, 2.352222],
+        "album": "Midnights",
+        "song": "Paris",
+        "lyrics": "Like we were in Paris, oh, like we were somewhere else / 'Cause we were in Paris, yes, we were somewhere else",
+        "notes": ""
+    },
+    {
+        "location": "Eiffel Tower, Paris",
+        "coordinates": [48.858222, 2.2945],
+        "album": "Midnights",
+        "song": "Paris",
+        "lyrics": "Let the only flashing lights be the tower at midnight, in my mind",
+        "notes": ""
+    },
+    // The Tortured Poets Department
+    {
+        "location": "United States of America",
+        "coordinates": [40, -100],
+        "album": "The Tortured Poets Department",
+        "song": "Fortnight",
+        "lyrics": "'Nother fortnight lost in America",
+        "notes": ""
+    },
+    {
+        "location": "Florida (FL)",
+        "coordinates": [28.133333, -81.631667],
+        "album": "The Tortured Poets Department",
+        "song": "Fortnight",
+        "lyrics": "Move to Florida, buy the car you want",
+        "notes": ""
+    }, // TODO
+    // Miscellaneous
 ]
