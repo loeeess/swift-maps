@@ -417,7 +417,7 @@ var locations = [
         "notes": ""
     },
     {
-        "location": "Lake District (the Lakes)",
+        "location": "Lake District (The Lakes)",
         "coordinates": [54.5, -3.166667],
         "album": "folklore",
         "song": "​invisible string",
@@ -546,6 +546,101 @@ var locations = [
         "song": "Fortnight",
         "lyrics": "Move to Florida, buy the car you want",
         "notes": ""
-    }, // TODO
-    // Miscellaneous
+    },
+    {
+        "location": "Chelsea Hotel, New York City",
+        "coordinates": [40.7444444,-73.99666666666667],
+        "album": "The Tortured Poets Department",
+        "song": "The Tortured Poets Department",
+        "lyrics": "You're not Dylan Thomas, I'm not Patti Smith, this ain't the Chelsea Hotel, we'rе modern idiots",
+        "notes": ""
+    },
+    {
+        "location": "London",
+        "coordinates": [51.507222, -0.1275],
+        "album": "The Tortured Poets Department",
+        "song": "So Long, London",
+        "lyrics": "So (So) long (Long), London (London) / So long, London, you'll find someone / For so long, London, stitches undone",
+        "notes": ""
+    },
+    {
+        "location": "Hampstead Heath, London",
+        "coordinates": [51.560278, -0.160833],
+        "album": "The Tortured Poets Department",
+        "song": "So Long, London",
+        "lyrics": "I left all I knew, you left me at the house by the Heath",
+        "notes": "Referring to Taylor and Joe's house near Hampstead Heath, a popular park in London."
+    },
+    {
+        "location": "United States of America",
+        "coordinates": [40, -100],
+        "album": "The Tortured Poets Department",
+        "song": "Fresh Out The Slammer",
+        "lyrics": "To the one who says I'm the girl of his American dreams",
+        "notes": ""
+    },
+    {
+        "location": "Destin, Florida",
+        "coordinates": [30.3933333, -86.47527777777778],
+        "album": "The Tortured Poets Department",
+        "song": "Florida!!!",
+        "lyrics": "So you work your life away just to pay, for a time-share down in Destin",
+        "notes": ""
+    },
+    {
+        "location": "Florida (FL)",
+        "coordinates": [28.133333, -81.631667],
+        "album": "The Tortured Poets Department",
+        "song": "Florida!!!",
+        "lyrics": "Florida, is one hell of a drug, Florida, can I use you up?",
+        "notes": ""
+    },
+    {
+        "location": "Texas (TX)",
+        "coordinates": [31, -99],
+        "album": "The Tortured Poets Department",
+        "song": "Florida!!!",
+        "lyrics": "So you pack your life away just to wait out the shitstorm back in Texas",
+        "notes": ""
+    },
+    {
+        "location": "Texas (TX)",
+        "coordinates": [31, -99],
+        "album": "The Tortured Poets Department",
+        "song": "I Can Fix Him (No Really I Can)",
+        "lyrics": "The dopamine races through his brain on a six-lane Texas highway",
+        "notes": ""
+    },
+    {
+        "location": "Manhattan, New York City",
+        "coordinates": [40.7127, -74.0059],
+        "album": "The Tortured Poets Department",
+        "song": "Clara Bow",
+        "lyrics": "No one in my small town thought I'd see the lights of Manhattan",
+        "notes": ""
+    },
+    {
+        "location": "Los Angeles",
+        "coordinates": [34.05, -118.25],
+        "album": "The Tortured Poets Department",
+        "song": "Clara Bow",
+        "lyrics": "No one in my small town thought I'd meet these suits in L.A.",
+        "notes": ""
+    },
+    {
+        "location": "The Black Dog, London",
+        "coordinates": [51.48866734809789, -0.12087869979229929],
+        "album": "The Tortured Poets Department",
+        "song": "The Black Dog",
+        "lyrics": "And so I watch as you walk into some bar called The Black Dog / How you don't miss me in The Black Dog / And I hope it's shitty in The Black Dog",
+        "notes": ""
+    },
+    {
+        "location": "Central Park lake, New York City",
+        "coordinates": [40.7822222, -73.96527777777779],
+        "album": "The Tortured Poets Department",
+        "song": "The Bolter",
+        "lyrics": "When it's all roses, portrait poses, Central Park Lake in tiny rowboats",
+        "notes": "Referring to the row boats available for rent in Central Park."
+    },
 ]

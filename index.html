@@ -5,35 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Taylor Swift Lyrics Map</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-        <link rel="stylesheet" href="css/styles.css"> <!-- Updated path to CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">    
     </head>
     <body>
-        <header class="page-header">
-            <h1>Taylor Swift Lyrics Locations</h1>
-        </header>
-        <div class="container">
-            <div id="map"></div>
-            <div id="album-filter" class="filter-box">
-                <h2>Filter by Album</h2>
-                <label><input type="checkbox" value="Taylor Swift" checked> Taylor Swift</label>
-                <label><input type="checkbox" value="Fearless (Taylor's Version)" checked> Fearless (Taylor's Version)</label>
-                <label><input type="checkbox" value="Speak Now (Taylor's Version)" checked> Speak Now (Taylor's Version)</label>
-                <label><input type="checkbox" value="Red (Taylor's Version)" checked> Red (Taylor's Version)</label>
-                <label><input type="checkbox" value="1989 (Taylor's Version)" checked> 1989 (Taylor's Version)</label>
-                <label><input type="checkbox" value="reputation" checked> reputation</label>
-                <label><input type="checkbox" value="Lover" checked> Lover</label>
-                <label><input type="checkbox" value="folklore" checked> folklore</label>
-                <label><input type="checkbox" value="evermore" checked> evermore</label>
-                <label><input type="checkbox" value="Midnights" checked> Midnights</label>
-                <label><input type="checkbox" value="The Tortured Poets Department" checked> The Tortured Poets Department</label>
-                <label><input type="checkbox" value="Other" checked> Other</label>
+        <div class="content">
+            <header class="header">
+                <h1>Taylor Swift Lyrics Map</h1>
+            </header>
+            <div class="container">
+                <div id="map"></div>
+                <div class="options">
+                    <div id="album-filter" class="option-box">
+                        <h2>Filter by album</h2>
+                        <label><input type="checkbox" value="Taylor Swift" checked> Taylor Swift</label>
+                        <label><input type="checkbox" value="Fearless (Taylor's Version)" checked> Fearless (Taylor's Version)</label>
+                        <label><input type="checkbox" value="Speak Now (Taylor's Version)" checked> Speak Now (Taylor's Version)</label>
+                        <label><input type="checkbox" value="Red (Taylor's Version)" checked> Red (Taylor's Version)</label>
+                        <label><input type="checkbox" value="1989 (Taylor's Version)" checked> 1989 (Taylor's Version)</label>
+                        <label><input type="checkbox" value="reputation" checked> reputation</label>
+                        <label><input type="checkbox" value="Lover" checked> Lover</label>
+                        <label><input type="checkbox" value="folklore" checked> folklore</label>
+                        <label><input type="checkbox" value="evermore" checked> evermore</label>
+                        <label><input type="checkbox" value="Midnights" checked> Midnights</label>
+                        <label><input type="checkbox" value="The Tortured Poets Department" checked> The Tortured Poets Department</label>
+                    </div>
+                    <div id="random-song-box" class="option-box">
+                        <button id="random-song-button">Get random song</button>
+                    </div>
+                </div>
             </div>
+            <footer class="footer">
+                <p>This is a Taylor Swift fan project - Made with ♥ by <a href="https://github.com/loeeess" target="_blank">Loes</a></p>
+            </footer>
         </div>
-
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/ewoken/Leaflet.MovingMarker/MovingMarker.js"></script>
-
-        <script src="js/locations.js"></script> <!-- Updated path to JS -->
-        <script src="js/map.js"></script> <!-- Updated path to JS -->
+        <script src="js/locations.js"></script>
+        <script src="js/map.js"></script>
     </body>
 </html>

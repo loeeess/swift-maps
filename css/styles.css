@@ -1,37 +1,57 @@
 /* styles.css */
 
 /* General styles */
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    background-color: #fef6f5;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(139,104,194,0.1) 0%, rgba(249,125,172,0.1) 30%, rgba(253,155,80,0.1) 100%);
+}
+
+body {
+    background-color: #fef6f5;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #622f40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgba(249,125,172,1);
 }
 
 /* Header styles */
-.page-header {
-    background-color: #f8c6d7;
-    padding: 20px;
+.header {
+    float: left;
+    background: linear-gradient(90deg, rgba(139,104,194,1) 0%, rgba(249,125,172,1) 30%, rgba(253,155,80,1) 100%);
     text-align: center;
-    border-bottom: 5px solid #e8aeb1;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Playfair Display", serif;
 }
 
-.page-header h1 {
+.header h1 {
     margin: 0;
-    color: #333;
+    color: #FFFFFF;
+    float: left;
 }
 
-/* Container styles */
+/* Filter container styles */
 .container {
     display: flex;
     align-items: flex-start;
+    flex: 1;
     justify-content: space-between;
     padding: 20px;
     gap: 20px;
@@ -40,38 +60,108 @@ body {
 /* Map styles */
 #map {
     flex: 1;
-    height: 60vh;
-    border: 2px solid #f8c6d7;
-    border-radius: 15px;
+    height: 70vh;
+    border: 1px solid rgba(249,125,172,0.5);
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Filter Box Styles */
-.filter-box {
+ /* Option styles */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Filter box styles */
+.option-box {
     width: 300px;
     padding: 20px;
     background-color: #ffffff;
-    border: 2px solid #e8aeb1;
-    border-radius: 15px; /* Rounded corners */
+    /* border: 2px solid rgba(249,125,172,0.5); */
+    /* border-radius: 15px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, rgba(206, 175, 255, 0.1) 0%, rgba(249,125,172,0.1) 30%, rgba(253,155,80,0.1) 100%);
+    border: 1px solid rgba(249,125,172,0.5);
+    border-radius: 8px;
 }
 
-.filter-box h2 {
+.option-box h2 {
     margin-top: 0;
     color: #333;
+    font-family: "Playfair Display", serif;
 }
 
-.filter-box label {
+.option-box label {
     display: block;
     margin-bottom: 10px;
     color: #666;
     font-size: 1em;
 }
 
-.filter-box input[type="checkbox"] {
+.option-box input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.filter-box input[type="checkbox"] {
-    accent-color: #f8c6d7;
+.option-box input[type="checkbox"] {
+    accent-color: rgba(249,125,172,1);
+}
+
+/* Random song box styles */
+#random-song-box {
+    display: flex;
+    justify-content: center;
+}
+
+#random-song-button {
+    background-color: rgba(139,104,194,1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#random-song-button:hover {
+    background-color: rgba(249,125,172,1);
+}
+
+/* Footer styles */
+.footer {
+    text-align: right;
+    font-size: 10px;
+    padding: 0 10px;
+    flex-shrink: 0;
+}
+
+/* Responsive layout styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    #map {
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .option-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #random-song-box {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    #map {
+        height: 60vh;
+    }
 }
